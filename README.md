@@ -15,7 +15,7 @@ In oder to this to work, you really need all of your rigs in a single folder. Ju
 
 the .db file is located in %LOCALAPPDATA%\Kemper Amps\RigManager in the new folder that you created. Mine was in 'local library'
 
-The most tedious part of this process is 'fixing' the .db. You will need a program like DB Browser (free download) to open the .db. In oder for the script to work properly, you have to ensure the 'Source Amp' and 'Amp Name' columns have useable names ie.. no "/", "\" or "*". Basically no special characters that cannot be used by windows to create folder names. You will also need to ensure there are no blank fields in any of those columns.
+The most tedious part of this process is 'fixing' the .db. You will need a program like DB Browser (free download) to open the .db. In order for the script to work properly, you have to ensure the 'Source Amp' and 'Amp Name' columns have useable names ie.. no "/", "\" or "*". Basically no special characters that cannot be used by windows to create folder names. You will also need to ensure there are no blank fields in any of those columns.
 
 In each of the scripts, there are paths defined. You will need to edit these to fit your situation. I copied the .db into a folder on my desktop and did the work there. Once it was the way I wanted it, I dragged the folder structure back into %LOCALAPPDATA%\Kemper Amps\RigManager. 
 
