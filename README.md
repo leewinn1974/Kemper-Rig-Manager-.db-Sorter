@@ -5,7 +5,7 @@ I have about 8000 rigs in my Kemper rig manager library. Of course browsing that
 
 This is certianly not a 'one size fits all' solution, but it's what worked for me. Obviously, you can edit the scripts to sort however you want to.
 
-The way I have it sorts the database in this way:
+It sorts the database in this way:
 
 1st into 'Studio' and 'Direct' <-- this is whether or not the rig has a cabinet model
 2nd into a manufacturer folder ie.. Marshall, Fender etc..
