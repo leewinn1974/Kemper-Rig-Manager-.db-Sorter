@@ -3,8 +3,8 @@ import shutil
 import sqlite3
 
 # Define input and output paths
-input_path = r"C:\\Users\\leewi\\Desktop\\Sorter\\TEST\\Raw\\repositoryR2.db"
-output_path = r"C:\\Users\\leewi\\Desktop\\Sorter\\TEST\\TestOutput"
+input_path = r"C:\YOUR PATH\repositoryR2.db" # edit with your path, leave repositoryR2.db
+output_path = r"C:\YOUR PATH" # edit with your path
 
 # Connect to input database
 input_conn = sqlite3.connect(input_path)
