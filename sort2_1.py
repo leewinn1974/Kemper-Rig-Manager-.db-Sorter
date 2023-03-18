@@ -47,9 +47,7 @@ for rig in rigs:
     if not os.path.exists(rig_folder):
         os.makedirs(rig_folder)
 
-    # Copy rig database file to destination folder
-    #rig_file = os.path.join(rig_folder, "repositoryR2.db")
-    #shutil.copy2(input_path, rig_file)
+   
 
 # Close input database connection
 input_conn.close()
