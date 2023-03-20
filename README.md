@@ -1,6 +1,8 @@
 # Kemper-Rig-Manager-.db-Sorter
 Scripts and instructions on how to sort Kemper Rig Manager databases.
 
+USE WITH CAUTION: CREATE BACKUPS. IF YOU'RE NOT SURE WHAT YOU'RE DOING, ASK!
+
 I have about 8000 rigs in my Kemper rig manager library. Of course browsing that big of a list is extremely cumbersome. The two scripts and these instructions will sort the giant single database into a more logical order for easier use. 
 
 This is certianly not a 'one size fits all' solution, but it's what worked for me. Obviously, you can edit the scripts to sort however you want to.
