@@ -13,9 +13,9 @@ It sorts the database in this way:
 2nd into a manufacturer folder ie.. Marshall, Fender etc..
 3rd by amp name. 
 
-In oder to this to work, you really need all of your rigs in a single folder. Just create a new folder in rig manager and drag all of your rigs into it. I had a folder with a pile of .kipr files in it. It was a mess of folders and sub-folders. I just dragged the whole mess in, folders and all. Rig manager will ignore the folders and other trash and just import the rigs.
+In order to this to work, you really need all of your rigs in a single folder. Just create a new folder in rig manager and drag all of your rigs into it. I had a folder with a pile of .kipr files in it. It was a mess of folders and sub-folders. I just dragged the whole mess in, folders and all. Rig manager will ignore the folders and other trash and just import the rigs.
 
-the .db file is located in %LOCALAPPDATA%\Kemper Amps\RigManager in the new folder that you created. Mine was in 'local library'
+The .db file is located in %LOCALAPPDATA%\Kemper Amps\RigManager in the new folder that you created. Mine was in 'local library'
 
 The most tedious part of this process is 'fixing' the .db. You will need a program like DB Browser (free download) to open the .db. In order for the script to work properly, you have to ensure the 'Source Amp' and 'Amp Name' columns have useable names ie.. no "/", "\" or "*". Basically no special characters that cannot be used by windows to create folder names. You will also need to ensure there are no blank fields in any of those columns.
 
