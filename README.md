@@ -24,7 +24,7 @@ In each of the scripts, there are paths defined. You will need to edit these to 
 Once the .db is fixed, with the names how you want them, there are 3 steps to sort it all out. 
 
 1. Run the sort2_1.py script: <-- this creates the folder structure
-2. copy this folder structure to %LOCALAPPDATA%\Kemper Amps\RigManager\(FOLDER) and open Rig Manager: <--when it opens, Rig manager will place an empty .db in each new folder. This takes a little time, so be patient. Once rig manager opens, you will see your empty folders. Close Rig Manager, copy the folder strucure back into whichever directory your script points to.
+2. copy this folder structure to %LOCALAPPDATA%\Kemper Amps\RigManager\local library\(FOLDER) and open Rig Manager: <--when it opens, Rig manager will place an empty .db in each new folder. This takes a little time, so be patient. Once rig manager opens, you will see your empty folders. Close Rig Manager, copy the folder strucure back into whichever directory your script points to.
 3. Run db_write.py: <-- once this finishes (~5 min for me) the folders are complete. Copy them back into %LOCALAPPDATA%\Kemper Amps\RigManager. I did not add a status bar or anything like that to indicate the script is running, so it sort of just 'sits' there until its finished. This script looks for the folders and .db files and will stop with an error if something is missing. 
 
 * You can do all of this in %LOCALAPPDATA%\Kemper Amps\RigManager without all of the copying and dragging etc.. I just did it in a folder on my desktop. Just make sure your script has the correct path. 
